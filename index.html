@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple photo showcase of savanna predators featuring selected images and a short video highlighting wildlife in their natural habitat.">
+    <title>Predators of the Savanna | WildLens</title>
+  </head>
+  <body>
+    <!-- Layout: Page Header -->
+    <header>
+      <hgroup>
+        <h1>WildLens</h1>
+        <p>Predators of the Savanna</p>
+      </hgroup>
+    </header>
+    
+    <!-- Layout: Main Content -->
+    <main>
+      
+      <!-- Photo Collections -->
+      <section aria-labelledby="photo-collections">
+        <h2 id="photo-collections">Wildlife Gallery</h2>
+        <p>Capturing the beauty and intensity of life in the wild savanna.</p>
+        
+        <img src="assets/images/lion/lion-1x.jpg"
+          srcset="
+            assets/images/lion/lion-1x.jpg 1x,
+            assets/images/lion/lion-2x.jpg 2x,
+            assets/images/lion/lion-3x.jpg 3x,
+          "
+          width="300"
+          height="200"
+          alt=""
+          aria-hidden="true"
+          fetchpriority="high"
+        >
+         
+        <img src="assets/images/hyena/hyena-1x.jpg"
+          srcset="
+            assets/images/hyena/hyena-1x.jpg 1x,
+            assets/images/hyena/hyena-2x.jpg 2x,
+            assets/images/hyena/hyena-3x.jpg 3x,
+          "
+          width="300"
+          height="200"
+          loading="lazy"
+          alt="Spotted hyena looking over its shoulder in a savanna habitat"
+        >
+         
+        <figure>
+          <img src="assets/images/serval/serval-1x.jpg"
+            srcset="
+              assets/images/serval/serval-1x.jpg 1x,
+              assets/images/serval/serval-2x.jpg 2x,
+              assets/images/serval/serval-3x.jpg 3x,
+            "
+            width="300"
+            height="200"
+            loading="lazy"
+            alt="Serval grooming its fur while resting on the ground">
+          <figcaption>
+            A quiet grooming session reveals the elegance and care of a resting serval.
+          </figcaption>
+        </figure>
+         
+        <figure>
+          <img src="assets/images/jackal/jackal-1x.jpg"
+            srcset="
+              assets/images/jackal/jackal-1x.jpg 1x,
+              assets/images/jackal/jackal-2x.jpg 2x,
+              assets/images/jackal/jackal-3x.jpg 3x,
+            "
+            width="300"
+            height="200"
+            loading="lazy"  
+            alt="Black-backed jackal looking directly toward the camera in dry grassland">
+          <figcaption>
+            A close-up view reveals the sharp features and alert expression of a black-backed jackal.
+          </figcaption>
+        </figure>
+         
+        <figure>
+          <img src="assets/images/caracal/caracal-1x.jpg"
+            srcset="
+              assets/images/caracal/caracal-1x.jpg 1x,
+              assets/images/caracal/caracal-2x.jpg 2x,
+              assets/images/caracal/caracal-3x.jpg 3x,
+            "
+            width="200"
+            height="300"
+            loading="lazy"  
+            alt="Caracal sitting upright with its distinctive tufted ears visible">
+          <figcaption>
+            The caracal sits upright, showcasing the distinctive tufted ears that make this wild cat instantly recognizable.
+          </figcaption>
+        </figure>
+         
+        <img src="assets/images/leopard/leopard-1x.jpg"
+          srcset="
+            assets/images/leopard/leopard-1x.jpg 1x,
+            assets/images/leopard/leopard-2x.jpg 2x,
+            assets/images/leopard/leopard-3x.jpg 3x,
+          "
+          width="200"
+          height="300"
+          loading="lazy"
+          alt="Leopard resting on the ground while looking into the distance"
+        >
+      </section>
+      
+      <!-- Featured Video -->
+      <section aria-labelledby="featured-video">
+        <h2 id="featured-video">Featured Video</h2>
+        <p>
+          Watch the cheetah in motion as it showcases the speed and elegance that define Africa's fastest predator.
+        </p>
+        
+        <video controls muted
+          poster="assets/images/video-thumbnail.jpg"
+          width="200"
+          height="300"
+          preload="none"
+          aria-describedby="video-desc">
+          
+          <source src="assets/videos/short-video.mp4" type="video/mp4">
+          
+          <p>
+            Your browser doesn't support video. Here is a
+            <a href="assets/videos/short-video.mp4" download>link to download the video</a> instead.
+          </p>
+        </video>
+        
+        <p id="video-desc">
+          With every stride, the cheetah demonstrates the focus, precision, and
+          athleticism that make it one of the savanna's most remarkable predators.
+        </p>
+      </section>
+    </main>
+    
+    <!-- Layout: Page Footer -->
+    <footer>
+      <p><small>&copy; 2026 WildLens. All rights reserved.</small></p>
+      <p>
+        <small>Some images and videos featured on this website were provided by creators on
+        <a href="https://pexels.com" target="_blank" rel="noopener noreferrer">Pexels</a>.</small>
+      </p>
+    </footer>
+  </body>
+</html>
